@@ -1,1 +1,13 @@
-alert('quick-search');
+class QuickSearch {
+    constructor() {
+        this.list = {}
+    }
+    set(key, value) {
+        this.list[key] = value
+    }
+    get(key){
+        return this.list[key]
+    }
+}
+
+window.QuickSearch = QuickSearch

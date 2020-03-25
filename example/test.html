@@ -6,8 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <p>quick-search test</p>
+    <p>example</p>
 
     <script src="../release/bundle.js"></script>
+    <script>
+        var QS = window.QuickSearch;
+        var search = new QS();
+        search.set('a', 100);
+        alert(search.get('a'));
+    </script>
 </body>
 </html>
