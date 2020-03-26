@@ -1,5 +1,5 @@
 {
-  "name": "quick-search",
+  "name": "quick-search-npm",
   "version": "0.0.1",
   "description": "短小精悍，快速查询前端语句的使用方法",
   "main": "src/index.js",
@@ -30,6 +30,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "babel-loader": "^7.1.5"
+    "babel-loader": "^7.1.5",
+    "user": "0.0.0"
   }
 }
