@@ -1,6 +1,6 @@
 {
   "name": "quick-search-npm",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "短小精悍，快速查询前端语句的使用方法",
   "main": "src/index.js",
   "scripts": {
